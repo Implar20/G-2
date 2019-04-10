@@ -1,0 +1,242 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+li {
+  list-style: none;
+}
+/* header */
+.header {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 60px;
+  background-color: #1b1b1b;
+}
+.header .header_logo {
+  display: inline-block;
+  margin-left: 15px;
+  width: 140px;
+  height: 45px;
+}
+.header .header_logo img {
+  width: 100%;
+  height: 100%;
+}
+.header .header_left {
+  margin-right: auto;
+}
+.header .header_left li {
+  background-color: #2d3136;
+  margin-left: 20px;
+  border-radius: 4px;
+  height: 30px;
+  overflow: hidden;
+  float: left;
+}
+.header .header_left li a {
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  height: 100%;
+  color: #ffa31a;
+}
+.header .header_left li a i {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  background: url('../../img/加.svg');
+  background-size: 100%;
+}
+.header .header_left li a span {
+  text-transform: capitalize;
+  font-size: 14px;
+  float: left;
+  margin-left: 10px;
+}
+.header .header_left li a:hover {
+  background-color: #000;
+}
+.header .header_left .back {
+  background-color: #1b1b1b;
+  cursor: default;
+  border: none;
+}
+.header .header_left .back a {
+  opacity: .5;
+  cursor: default;
+}
+.header .header_left .back a i {
+  background: url('../../img/撤销.svg');
+  background-size: 100%;
+}
+.header .header_left .back a:hover {
+  background-color: #1b1b1b;
+}
+.header .header_left .front {
+  background-color: #1b1b1b;
+  border: none;
+  cursor: default;
+}
+.header .header_left .front a {
+  opacity: .5;
+  cursor: default;
+}
+.header .header_left .front a i {
+  background: url('../../img/重做.svg');
+  background-size: 100%;
+}
+.header .header_left .front a:hover {
+  background-color: #1b1b1b;
+}
+.header .header_right li {
+  background: transparent;
+  border-radius: 4px;
+  height: 30px;
+  overflow: hidden;
+  float: left;
+  margin-right: 20px;
+}
+.header .header_right li a {
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  height: 100%;
+  color: #ffa31a;
+  opacity: .9;
+}
+.header .header_right li a i {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: url('../../img/眼睛.svg');
+  background-size: 100%;
+}
+.header .header_right li a span {
+  text-transform: capitalize;
+  font-size: 14px;
+  float: left;
+  margin-left: 10px;
+}
+.header .header_right li a:hover {
+  opacity: 1;
+}
+.header .header_right .right_save {
+  background: transparent;
+}
+.header .header_right .right_save a i {
+  width: 20px;
+  height: 20px;
+  background: url('../../img/保存.svg');
+  background-size: 100%;
+}
+.header .header_right .right_download {
+  background-color: #ffa31a;
+}
+.header .header_right .right_download a {
+  color: #fff;
+  opacity: 1;
+}
+.header .header_right .right_download a i {
+  width: 20px;
+  height: 20px;
+  background: url('../../img/下载.svg');
+  background-size: 100%;
+}
+.header .header_right .right_download a:hover {
+  background-color: #ffbf5f;
+}
+.content {
+  position: relative;
+  width: 100%;
+  background-color: rgba(237, 237, 237, 0.85);
+}
+.content aside {
+  position: relative;
+  width: 410px;
+  height: 100%;
+  background-color: #fff;
+  border-right: 1px solid #e3e3e3;
+}
+.content aside ul {
+  width: 80px;
+  height: 100%;
+  background-color: #ffa31a;
+}
+.content aside ul li {
+  width: 80px;
+  height: 80px;
+}
+.content aside ul li a {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  color: #1b1b1b;
+  font-size: 11px;
+  font-weight: 500;
+}
+.content aside ul li a img {
+  margin-top: 18px;
+  width: 22px;
+  height: 22px;
+}
+.content aside ul li a span {
+  display: block;
+}
+.content aside ul .active {
+  background-color: #e48b06;
+}
+.content aside .content_icon {
+  position: absolute;
+  width: 330px;
+  height: 100%;
+  left: 80px;
+  top: 0;
+}
+.content aside .content_icon .icon_list {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+.content aside .content_icon .icon_list .list_menu {
+  display: flex;
+  justify-content: center;
+  background-color: #fff;
+  width: 295px;
+}
+.content aside .content_icon .icon_list .list_menu .list_item {
+  display: inline-block;
+  width: 80px;
+  padding: 5px;
+  margin: 6px 12px 6px 0;
+  background: url('../../img/形状-星形.svg');
+  background-size: 100%;
+}
+.content aside .content_icon .icon_list .list_menu .list_item:hover {
+  background-color: #e9e9e9;
+}
+.content .section {
+  position: absolute;
+  top: 0;
+  left: 410px;
+}
+.content .section .bg_C {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  width: 593px;
+  height: 593px;
+  background-color: #fff;
+}
+.content .section .bg_C #ctx {
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
+}
