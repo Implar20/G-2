@@ -39,7 +39,20 @@ $(function () {
     /**
      * 预览 保存 下载
      */
+    $('.right_download a').click(function () {
+        var show = convertCanvasToImage(ctx)
+        var i = show.src
+        $(this).attr({
+            'href': i,
+            'download': 'demo'
+        })
+    })
 
+    function convertCanvasToImage(canvas) {
+        var image = document.createElement('img')
+        image.src = canvas.toDataURL('image/jpeg')
+        return image
+    }
     /**
      * 切换 tag
      */
@@ -74,7 +87,7 @@ $(function () {
     /**
      * fabric 文字
      */
-    $('.text_menu h1').click(function() {
+    $('.text_menu h1').click(function () {
         var str = $('.text_menu input').val()
         var text = new fabric.Text(str, {
             left: 100,
