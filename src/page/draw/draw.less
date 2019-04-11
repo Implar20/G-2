@@ -190,6 +190,9 @@ li {
                         display: block;
                     }
                 }
+                &:hover {
+                    background-color: #e48b06;
+                }
             }
             .active {
                 background-color: #e48b06;
@@ -210,15 +213,52 @@ li {
                     justify-content: center;
                     background-color: #fff;
                     width: 295px;
-                    .list_item {
+                    .icon_item,
+                    .shape_item {
                         display: inline-block;
                         width: 80px;
                         padding: 5px;
                         margin: 6px 12px 6px 0;
-                        background: url('../../img/形状-星形.svg');
-                        background-size: 100%;
+                        img {
+                            width: 100%;
+                        }
                         &:hover {
+                            cursor: pointer;
                             background-color: #e9e9e9;
+                        }
+                    }
+                    .icon_item {
+                        display: none;
+                    }
+                }
+                .text_menu {
+                    display: none;
+                    h1 {
+                        width: 270px;
+                        font-weight: 700;
+                        font-size: 32px;
+                        color: #404040;
+                        text-align: center;
+                        &:hover {
+                            cursor: pointer;
+                            border-radius: 4px;
+                            background-color: #ededed;
+                        }
+                    }
+                    .logo_name {
+                        width: 270px;
+                        height: 36px;
+                        padding: 8px;
+                        font-size: 18px;
+                        margin: 10px 0 0 8px;
+                        border: 1px solid #e4e4e4;
+                        border-radius: 6px;
+                        outline: none;
+                        &:hover {
+                            border: 2px solid #ffa31a;
+                        }
+                        &:focus {
+                            border: 2px solid #ffa31a;
                         }
                     }
                 }
