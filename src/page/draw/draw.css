@@ -1,3 +1,4 @@
+@import url('../font.css');
 * {
   margin: 0;
   padding: 0;
@@ -247,21 +248,108 @@ li {
   border-radius: 4px;
   background-color: #ededed;
 }
-.content aside .content_icon .icon_list .text_menu .logo_name {
+.content aside .content_icon .icon_list .text_menu p {
   width: 270px;
   height: 36px;
-  padding: 8px;
+  margin-top: 2px;
+  font-weight: 400;
   font-size: 18px;
-  margin: 10px 0 0 8px;
-  border: 1px solid #e4e4e4;
-  border-radius: 6px;
-  outline: none;
+  color: #404040;
+  text-align: center;
+  line-height: 38px;
 }
-.content aside .content_icon .icon_list .text_menu .logo_name:hover {
-  border: 2px solid #ffa31a;
+.content aside .content_icon .icon_list .text_menu p:hover {
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #ededed;
 }
-.content aside .content_icon .icon_list .text_menu .logo_name:focus {
-  border: 2px solid #ffa31a;
+.content aside .content_icon .icon_list .text_menu i {
+  width: 270px;
+  height: 1px;
+  border-top: 1px solid #f0f0f0;
+  display: inline-block;
+}
+.content aside .content_icon .icon_list .text_menu .text_list {
+  display: inline-block;
+  width: 270px;
+  background-color: #fff;
+}
+.content aside .content_icon .icon_list .text_menu .text_list li {
+  margin: 10px 0;
+  width: 100%;
+  height: 36px;
+  font-size: 18px;
+  text-align: center;
+  line-height: 36px;
+}
+.content aside .content_icon .icon_list .text_menu .text_list li:hover {
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #ededed;
+}
+.content aside .content_icon .icon_list .text_menu .text_list li:nth-child(1) {
+  font-family: '旁门正道';
+}
+.content aside .content_icon .icon_list .text_menu .text_list li:nth-child(2) {
+  font-family: '郑庆科黄油体';
+}
+.content aside .content_icon .icon_list .text_menu .text_list li:nth-child(3) {
+  font-family: '站酷快乐体';
+}
+.content aside .content_icon .icon_list .text_menu .text_list li:nth-child(4) {
+  font-family: '站酷高端黑';
+}
+.content aside .content_icon .icon_list .text_menu .text_list li:nth-child(5) {
+  font-family: '站酷酷黑';
+}
+.content aside .content_icon .icon_list .color_menu {
+  display: flex;
+  justify-content: center;
+  background-color: #fff;
+  width: 295px;
+}
+.content aside .content_icon .icon_list .color_menu .color_item {
+  display: inline-block;
+  width: 80px;
+  padding: 5px;
+  margin: 6px 12px 6px 0;
+}
+.content aside .content_icon .icon_list .color_menu .color_item span {
+  display: inline-block;
+  background-color: red;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.content aside .content_icon .icon_list .color_menu .color_item:nth-child(2) {
+  display: inline-block;
+  width: 80px;
+  padding: 5px;
+  margin: 6px 12px 6px 0;
+}
+.content aside .content_icon .icon_list .color_menu .color_item:nth-child(2) span {
+  display: inline-block;
+  background-color: green;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.content aside .content_icon .icon_list .color_menu .color_item:nth-child(3) {
+  display: inline-block;
+  width: 80px;
+  padding: 5px;
+  margin: 6px 12px 6px 0;
+}
+.content aside .content_icon .icon_list .color_menu .color_item:nth-child(3) span {
+  display: inline-block;
+  background-color: pink;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.content aside .content_icon .icon_list .color_menu .color_item:hover {
+  cursor: pointer;
+  background-color: #e9e9e9;
 }
 .content .section {
   position: absolute;

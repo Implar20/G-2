@@ -1,0 +1,55 @@
+/* 思源黑体 */
+@font-face {
+    font-family: 'SansHans-Black';
+    src: url('../fonts/NotoSansHans-Black.otf');
+}
+@font-face {
+    font-family: 'SansHans-Bold';
+    src: url('../fonts/NotoSansHans-Bold.otf');
+}
+@font-face {
+    font-family: 'SansHans-Dem';
+    src: url('../fonts/NotoSansHans-DemiLight.otf');
+}
+@font-face {
+    font-family: 'SansHans-Light';
+    src: url('../fonts/NotoSansHans-Light.otf');
+}
+@font-face {
+    font-family: 'SansHans-Medium';
+    src: url('../fonts/NotoSansHans-Medium.otf');
+}
+@font-face {
+    font-family: 'SansHans-Regular';
+    src: url('../fonts/NotoSansHans-Regular.otf');
+}
+@font-face {
+    font-family: 'SansHans-Thin';
+    src: url('../fonts/NotoSansHans-Thin-Windows.otf');
+}
+
+/* 其他 */
+@font-face {
+    font-family: '旁门正道';
+    src: url('../fonts/庞门正道.ttf');
+}
+@font-face {
+    font-family: '站酷logo';
+    src: url('../fonts/站酷logo.otf');
+}
+@font-face {
+    font-family: '站酷快乐体';
+    src: url('../fonts/站酷快乐体.ttf');
+}
+@font-face {
+    font-family: '站酷酷黑';
+    src: url('../fonts/站酷酷黑.ttf');
+}
+@font-face {
+    font-family: '站酷高端黑';
+    src: url('../fonts/站酷高端黑.ttf');
+}
+@font-face {
+    font-family: '郑庆科黄油体';
+    src: url('../fonts/郑庆科黄油体.ttf');
+}

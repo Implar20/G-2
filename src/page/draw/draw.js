@@ -22,7 +22,15 @@ $(function () {
                 top: 297,
                 left: 297,
                 originX: 'center',
-                originY: 'center'
+                originY: 'center',
+                // 边框
+                transparentCorners: false,
+                cornerColor: '#1b1b1b',
+                borderColor: '#9d9d9d',
+                cornerSize: 12,
+                padding: 15,
+                cornerStyle: 'circle',
+                borderDashArray: [3, 3]
             })
             ctx.add(oImg)
         })
@@ -67,33 +75,151 @@ $(function () {
         $('.list_menu').css('display', 'inline-block')
         $('.icon_item').css('display', 'none')
         $('.shape_item').css('display', 'inline-block')
+        $('.text_menu').css('display', 'none')
+        $('.color_menu').css('display', 'none')
     })
     $('.shape').click(function () {
         switchTag($(this))
         $('.list_menu').css('display', 'inline-block')
         $('.shape_item').css('display', 'none')
         $('.icon_item').css('display', 'inline-block')
+        $('.text_menu').css('display', 'none')
+        $('.color_menu').css('display', 'none')
     })
     $('.text').click(function () {
         switchTag($(this))
         $('.list_menu').css('display', 'none')
         $('.text_menu').css('display', 'inline-block')
+        $('.color_menu').css('display', 'none')
     })
     $('.bg').click(function () {
         switchTag($(this))
         $('.list_menu').css('display', 'none')
+        $('.color_menu').css('display', 'inline-block')
     })
 
     /**
      * fabric 文字
      */
     $('.text_menu h1').click(function () {
-        var str = $('.text_menu input').val()
-        var text = new fabric.Text(str, {
-            left: 100,
-            top: 100,
-            fontWeight: 'bold'
+        // create a rectangle object
+        var itext = new fabric.IText('添加 LOGO 名', {
+            left: 180,
+            top: 300,
+            fontWeight: 'bold',
+            strokeWidth: 2,
+            transparentCorners: false,
+            cornerColor: '#1b1b1b',
+            borderColor: '#9d9d9d',
+            cornerSize: 12,
+            padding: 15,
+            cornerStyle: 'circle',
+            borderDashArray: [3, 3]
         })
-        ctx.add(text)
+        
+        ctx.add(itext);
+    })
+    $('.text_menu p').click(function () {
+        // create a rectangle object
+        var itext = new fabric.IText('添加标语', {
+            left: 260,
+            top: 260,
+            fontSize: 24,
+            fontWeight: 'bold',
+            strokeWidth: 2,
+            transparentCorners: false,
+            cornerColor: '#1b1b1b',
+            borderColor: '#9d9d9d',
+            cornerSize: 12,
+            padding: 15,
+            cornerStyle: 'circle',
+            borderDashArray: [3, 3]
+        })
+        ctx.add(itext)
+    })
+    $('.text_list li:eq(0)').click(function() {
+        var itext = new fabric.IText('旁门正道', {
+            fontFamily: '旁门正道',
+            left: 260,
+            top: 260,
+            fontSize: 24,
+            strokeWidth: 2,
+            transparentCorners: false,
+            cornerColor: '#1b1b1b',
+            borderColor: '#9d9d9d',
+            cornerSize: 12,
+            padding: 15,
+            cornerStyle: 'circle',
+            borderDashArray: [3, 3]
+        })
+        ctx.add(itext)
+    })
+    $('.text_list li:eq(1)').click(function() {
+        var itext = new fabric.IText('郑庆科黄油体', {
+            fontFamily: '郑庆科黄油体',
+            left: 260,
+            top: 260,
+            fontSize: 24,
+            strokeWidth: 2,
+            transparentCorners: false,
+            cornerColor: '#1b1b1b',
+            borderColor: '#9d9d9d',
+            cornerSize: 12,
+            padding: 15,
+            cornerStyle: 'circle',
+            borderDashArray: [3, 3]
+        })
+        ctx.add(itext)
+    })
+    $('.text_list li:eq(2)').click(function() {
+        var itext = new fabric.IText('站酷快乐体', {
+            fontFamily: '站酷快乐体',
+            left: 260,
+            top: 260,
+            fontSize: 24,
+            strokeWidth: 2,
+            transparentCorners: false,
+            cornerColor: '#1b1b1b',
+            borderColor: '#9d9d9d',
+            cornerSize: 12,
+            padding: 15,
+            cornerStyle: 'circle',
+            borderDashArray: [3, 3]
+        })
+        ctx.add(itext)
+    })
+    $('.text_list li:eq(3)').click(function() {
+        var itext = new fabric.IText('站酷高端黑', {
+            fontFamily: '站酷高端黑',
+            left: 260,
+            top: 260,
+            fontSize: 24,
+            strokeWidth: 2,
+            transparentCorners: false,
+            cornerColor: '#1b1b1b',
+            borderColor: '#9d9d9d',
+            cornerSize: 12,
+            padding: 15,
+            cornerStyle: 'circle',
+            borderDashArray: [3, 3]
+        })
+        ctx.add(itext)
+    })
+    $('.text_list li:eq(4)').click(function() {
+        var itext = new fabric.IText('站酷酷黑', {
+            fontFamily: '站酷酷黑',
+            left: 260,
+            top: 260,
+            fontSize: 24,
+            strokeWidth: 2,
+            transparentCorners: false,
+            cornerColor: '#1b1b1b',
+            borderColor: '#9d9d9d',
+            cornerSize: 12,
+            padding: 15,
+            cornerStyle: 'circle',
+            borderDashArray: [3, 3]
+        })
+        ctx.add(itext)
     })
 })
