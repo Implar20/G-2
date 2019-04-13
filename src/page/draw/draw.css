@@ -63,20 +63,19 @@ li {
 .header .header_left li a:hover {
   background-color: #000;
 }
-.header .header_left .back {
+.header .header_left .clear {
   background-color: #1b1b1b;
-  cursor: default;
   border: none;
 }
-.header .header_left .back a {
+.header .header_left .clear a {
   opacity: .5;
   cursor: default;
 }
-.header .header_left .back a i {
-  background: url('../../img/撤销.svg');
+.header .header_left .clear a i {
+  background: url('../../img/删除.svg');
   background-size: 100%;
 }
-.header .header_left .back a:hover {
+.header .header_left .clear a:hover {
   background-color: #1b1b1b;
 }
 .header .header_left .front {
@@ -307,6 +306,7 @@ li {
   justify-content: center;
   background-color: #fff;
   width: 295px;
+  display: none;
 }
 .content aside .content_icon .icon_list .color_menu .color_item {
   display: inline-block;
