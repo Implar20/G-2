@@ -14,3 +14,9 @@ app.get('/', function(req, res) {
 app.listen(5500, function() {
     console.log('express app is running...')
 })
+
+
+function text(callback) {
+    // ...
+    callback()
+}

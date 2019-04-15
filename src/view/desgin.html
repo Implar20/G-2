@@ -12,23 +12,31 @@
 
 <body>
     <div class="header">
-        <a href="./index.html" class="header_icon">
-            <img src="../img/logo.png">
-        </a>
-        <ul class="header_right">
-            <li>
-                <a href="./draw.html" class="sign_in">制作</a>
-            </li>
-        </ul>
+        <div class="header_right">
+            <div class="header_in">
+                <a href="./index.html" class="header_icon">
+                    <img src="../img/logo.png">
+                </a>
+                <ul class="header_right">
+                    <li>
+                        <a href="./desgin.html">需求</a>
+                    </li>
+                    <li>
+                        <a href="./draw.html">制作</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </div>
     <div class="content">
         <div class="content_header">
             <div class="header_text">
                 <h1>发布您的需求，将有专业的设计师为你提供服务</h1>
+                <a href="javascript:;">发布需求</a>
             </div>
         </div>
         <div class="content_table">
-            <table class="table">
+            <table class="table table-bordered">
                 <thead>
                     <tr>
                         <th>姓名</th>
@@ -38,13 +46,51 @@
                     </tr>
                 </thead>
                 <tbody>
-                    
+                    <tr>
+                        <td>niko</td>
+                        <td>Logo</td>
+                        <td>babababdablalal</td>
+                        <td>1331055d815</td>
+                    </tr>
+                    <tr>
+                        <td>niko</td>
+                        <td>Logo</td>
+                        <td>babababdablalal</td>
+                        <td>1331055d815</td>
+                    </tr>
                 </tbody>
             </table>
         </div>
     </div>
     <div class="footer">
         <p>Copyright © 2019 <a href="https://mail.google.com">implar20@gmail.com</a></p>
+    </div>
+    <div class="mask">
+        <div class="mask_page">
+            <div class="mask_header">
+                <h1>发布需求</h1>
+                <div class="mask_cancel"></div>
+            </div>
+            <div class="mask_content">
+                <div class="form-group">
+                    <label for="">我需要：</label>
+                    <textarea class="form-control mask_xu" rows="3"></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="">姓名：</label>
+                    <input type="text" class="form-control mask_name">
+                </div>
+                <div class="form-group">
+                    <label for="">分类：</label>
+                    <input type="text" class="form-control mask_list">
+                </div>
+                <div class="form-group">
+                    <label for="">联系方式：</label>
+                    <input type="text" class="form-control mask_tel">
+                </div>
+                <button type="submit" class="btn btn-success">提交</button>
+            </div>
+        </div>
     </div>
 </body>
 <script src="../../node_modules/jquery/dist/jquery.js"></script>
