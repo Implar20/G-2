@@ -301,6 +301,51 @@ li {
 .content aside .content_icon .icon_list .text_menu .text_list li:nth-child(5) {
   font-family: '站酷酷黑';
 }
+.content aside .content_icon .icon_list .text_menu .text_list li:nth-child(6) {
+  font-family: '台湾明体';
+}
+.content aside .content_icon .icon_list .text_menu .text_list li:nth-child(7) {
+  font-family: '微软正黑体';
+}
+.content aside .content_icon .icon_list .text_menu .text_list li:nth-child(8) {
+  font-family: '歌以晓手迹行楷体';
+}
+.content aside .content_icon .icon_list .text_menu .text_list li:nth-child(9) {
+  font-family: '海派强调明姿简';
+}
+.content aside .content_icon .icon_list .text_menu .text_list li:nth-child(10) {
+  font-family: '潮字社风云简';
+}
+.content aside .content_icon .icon_list .text_menu .text_list li:nth-child(11) {
+  font-family: '联盟起艺卢帅正锐黑体';
+}
+.content aside .content_icon .icon_list .text_menu .text_list li:nth-child(12) {
+  font-family: '鬼子体';
+}
+.content aside .content_icon .icon_list .text_menu .text_list li:nth-child(13) {
+  font-family: '青柳隷书';
+}
+.content aside .content_icon .icon_list .text_menu .text_list li:nth-child(14) {
+  font-family: '二次元胖头鱼体';
+}
+.content aside .content_icon .icon_list .text_menu .text_list li:nth-child(15) {
+  font-family: '圆润露锋芒';
+}
+.content aside .content_icon .icon_list .text_menu .text_list li:nth-child(16) {
+  font-family: '汉仪二码墨书繁';
+}
+.content aside .content_icon .icon_list .text_menu .text_list li:nth-child(17) {
+  font-family: '汉仪晓波花月圆简';
+}
+.content aside .content_icon .icon_list .text_menu .text_list li:nth-child(18) {
+  font-family: '極限塚黑 L';
+}
+.content aside .content_icon .icon_list .text_menu .text_list li:nth-child(19) {
+  font-family: '瘦默陌硬笔手写体';
+}
+.content aside .content_icon .icon_list .text_menu .text_list li:nth-child(20) {
+  font-family: '汉仪天宇风行体';
+}
 .content aside .content_icon .icon_list .color_menu {
   display: flex;
   justify-content: center;
@@ -314,38 +359,106 @@ li {
   padding: 5px;
   margin: 6px 12px 6px 0;
 }
+.content aside .content_icon .icon_list .color_menu .color_item img {
+  width: 100%;
+  height: 100%;
+}
 .content aside .content_icon .icon_list .color_menu .color_item span {
   display: inline-block;
-  background-color: red;
+  background-color: #1ABC9C;
   width: 100%;
   height: 100%;
   border-radius: 50%;
-}
-.content aside .content_icon .icon_list .color_menu .color_item:nth-child(2) {
-  display: inline-block;
-  width: 80px;
-  padding: 5px;
-  margin: 6px 12px 6px 0;
 }
 .content aside .content_icon .icon_list .color_menu .color_item:nth-child(2) span {
-  display: inline-block;
-  background-color: green;
-  width: 100%;
-  height: 100%;
-  border-radius: 50%;
-}
-.content aside .content_icon .icon_list .color_menu .color_item:nth-child(3) {
-  display: inline-block;
-  width: 80px;
-  padding: 5px;
-  margin: 6px 12px 6px 0;
+  background-color: #2ECC71;
 }
 .content aside .content_icon .icon_list .color_menu .color_item:nth-child(3) span {
-  display: inline-block;
-  background-color: pink;
-  width: 100%;
-  height: 100%;
-  border-radius: 50%;
+  background-color: #3498DB;
+}
+.content aside .content_icon .icon_list .color_menu .color_item:nth-child(4) span {
+  background-color: #9B59B6;
+}
+.content aside .content_icon .icon_list .color_menu .color_item:nth-child(5) span {
+  background-color: #34495E;
+}
+.content aside .content_icon .icon_list .color_menu .color_item:nth-child(6) span {
+  background-color: #F1C40F;
+}
+.content aside .content_icon .icon_list .color_menu .color_item:nth-child(7) span {
+  background-color: #E67E22;
+}
+.content aside .content_icon .icon_list .color_menu .color_item:nth-child(8) span {
+  background-color: #E74C3C;
+}
+.content aside .content_icon .icon_list .color_menu .color_item:nth-child(9) span {
+  background-color: #ECF0F1;
+}
+.content aside .content_icon .icon_list .color_menu .color_item:nth-child(10) span {
+  background-color: #95A5A6;
+}
+.content aside .content_icon .icon_list .color_menu .color_item:nth-child(11) span {
+  background-color: #FFB7DD;
+}
+.content aside .content_icon .icon_list .color_menu .color_item:nth-child(12) span {
+  background-color: #FFCCCC;
+}
+.content aside .content_icon .icon_list .color_menu .color_item:nth-child(13) span {
+  background-color: #FFC8B4;
+}
+.content aside .content_icon .icon_list .color_menu .color_item:nth-child(14) span {
+  background-color: #FFDDAA;
+}
+.content aside .content_icon .icon_list .color_menu .color_item:nth-child(15) span {
+  background-color: #FFEE99;
+}
+.content aside .content_icon .icon_list .color_menu .color_item:nth-child(16) span {
+  background-color: #FFFFBB;
+}
+.content aside .content_icon .icon_list .color_menu .color_item:nth-child(17) span {
+  background-color: #EEFFBB;
+}
+.content aside .content_icon .icon_list .color_menu .color_item:nth-child(18) span {
+  background-color: #CCFF99;
+}
+.content aside .content_icon .icon_list .color_menu .color_item:nth-child(19) span {
+  background-color: #99FF99;
+}
+.content aside .content_icon .icon_list .color_menu .color_item:nth-child(20) span {
+  background-color: #BBFFEE;
+}
+.content aside .content_icon .icon_list .color_menu .color_item:nth-child(21) span {
+  background-color: #AAFFEE;
+}
+.content aside .content_icon .icon_list .color_menu .color_item:nth-child(22) span {
+  background-color: #99FFFF;
+}
+.content aside .content_icon .icon_list .color_menu .color_item:nth-child(23) span {
+  background-color: #CCEEFF;
+}
+.content aside .content_icon .icon_list .color_menu .color_item:nth-child(24) span {
+  background-color: #CCDDFF;
+}
+.content aside .content_icon .icon_list .color_menu .color_item:nth-child(25) span {
+  background-color: #CCCCFF;
+}
+.content aside .content_icon .icon_list .color_menu .color_item:nth-child(26) span {
+  background-color: #CCBBFF;
+}
+.content aside .content_icon .icon_list .color_menu .color_item:nth-child(27) span {
+  background-color: #D1BBFF;
+}
+.content aside .content_icon .icon_list .color_menu .color_item:nth-child(28) span {
+  background-color: #E8CCFF;
+}
+.content aside .content_icon .icon_list .color_menu .color_item:nth-child(29) span {
+  background-color: #F0BBFF;
+}
+.content aside .content_icon .icon_list .color_menu .color_item:nth-child(30) span {
+  background-color: #FFB3FF;
+}
+.content aside .content_icon .icon_list .color_menu .color_item:nth-child(31) span {
+  background-color: #000000;
 }
 .content aside .content_icon .icon_list .color_menu .color_item:hover {
   cursor: pointer;
