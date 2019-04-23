@@ -98,6 +98,7 @@ $(function () {
         $('.list_menu').css('display', 'none')
         $('.color_menu').css('display', 'inline-block')
         $('.text_menu').css('display', 'none')
+        $('.icon_item').css('display', 'none')
     })
 
     /**
